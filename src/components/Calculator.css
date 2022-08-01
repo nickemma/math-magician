@@ -33,6 +33,17 @@
   grid-template-columns: repeat(4, 1fr);
 }
 
+button {
+  border: none;
+  outline: none;
+  font-size: 1rem;
+  appearance: none;
+  margin-right: 1rem;
+  background: none;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
 .box-one button,
 .box-two button,
 .box-three button,
@@ -57,17 +68,6 @@
   font-weight: bold;
   font-size: 25px;
   cursor: pointer;
-}
-
-button {
-  border: none;
-  outline: none;
-  font-size: 1rem;
-  appearance: none;
-  margin-right: 1rem;
-  background: none;
-  cursor: pointer;
-  transition: all 0.2s ease-in-out;
 }
 
 .empty {
