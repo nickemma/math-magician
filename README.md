@@ -11,6 +11,7 @@ The pull request is opened to get a review on the project and check for any requ
 ## Built With
 
 - React js
+- CSS
 - Gitflow
 - Jest testing
 - following github flows standards.
