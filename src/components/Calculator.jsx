@@ -22,108 +22,108 @@ const Calculator = () => {
 
   const { total, next, operation } = state;
   return (
-    <div className='global'>
-      <div className='answer-span' onChange={resultDisplayClick}>
+    <div className="global">
+      <div className="answer-span" onChange={resultDisplayClick}>
         {total}
         {operation}
         {next}
       </div>
-      <div className='box-one'>
+      <div className="box-one">
         <button
           onClick={handleClick}
-          type='button'
-          className='btn delete number'
+          type="button"
+          className="btn delete number"
         >
           AC
         </button>
         <button
           onClick={handleClick}
-          type='button'
-          className='btn  number number'
+          type="button"
+          className="btn  number number"
         >
           +/-
         </button>
         <button
           onClick={handleClick}
-          type='button'
-          className='btn clear number'
+          type="button"
+          className="btn clear number"
         >
           %
         </button>
         <button
           onClick={handleClick}
-          type='button'
-          className='btn  equal-to operator'
+          type="button"
+          className="btn  equal-to operator"
         >
           ÷
         </button>
       </div>
-      <div className='box-two'>
-        <button onClick={handleClick} type='button' className='btn number'>
+      <div className="box-two">
+        <button onClick={handleClick} type="button" className="btn number">
           7
         </button>
-        <button onClick={handleClick} type='button' className='btn number'>
+        <button onClick={handleClick} type="button" className="btn number">
           8
         </button>
-        <button onClick={handleClick} type='button' className='btn number'>
+        <button onClick={handleClick} type="button" className="btn number">
           9
         </button>
         <button
           onClick={handleClick}
-          type='button'
-          className='btn number operator'
+          type="button"
+          className="btn number operator"
         >
           x
         </button>
       </div>
-      <div className='box-three'>
-        <button onClick={handleClick} type='button' className='btn number'>
+      <div className="box-three">
+        <button onClick={handleClick} type="button" className="btn number">
           4
         </button>
-        <button onClick={handleClick} type='button' className='btn number'>
+        <button onClick={handleClick} type="button" className="btn number">
           5
         </button>
-        <button onClick={handleClick} type='button' className='btn number'>
+        <button onClick={handleClick} type="button" className="btn number">
           6
         </button>
         <button
           onClick={handleClick}
-          type='button'
-          className='btn number  operator'
+          type="button"
+          className="btn number  operator"
         >
           -
         </button>
       </div>
-      <div className='box-four'>
-        <button onClick={handleClick} type='button' className='btn number'>
+      <div className="box-four">
+        <button onClick={handleClick} type="button" className="btn number">
           1
         </button>
-        <button onClick={handleClick} type='button' className='btn number'>
+        <button onClick={handleClick} type="button" className="btn number">
           2
         </button>
-        <button onClick={handleClick} type='button' className='btn number'>
+        <button onClick={handleClick} type="button" className="btn number">
           3
         </button>
         <button
           onClick={handleClick}
-          type='button'
-          className='btn number operator'
+          type="button"
+          className="btn number operator"
         >
           +
         </button>
       </div>
-      <div className='box-five'>
-        <button onClick={handleClick} type='button' className='btn number zero'>
+      <div className="box-five">
+        <button onClick={handleClick} type="button" className="btn number zero">
           0
         </button>
-        <button onClick={handleClick} type='button' className='btn number dot'>
+        <button onClick={handleClick} type="button" className="btn number dot">
           .
         </button>
 
         <button
           onClick={handleClick}
-          type='button'
-          className='btn number operator'
+          type="button"
+          className="btn number operator"
         >
           =
         </button>
