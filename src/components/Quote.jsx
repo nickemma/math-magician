@@ -27,14 +27,14 @@ const Quote = () => {
   quote.splice(0, 9);
 
   return (
-    <div className='quoteContainer'>
-      <div className='quotes'>
+    <div className="quoteContainer">
+      <div className="quotes">
         {quotes === '' && (
           <p>&quot;Math is the source code of reality.&quot;</p>
         )}
       </div>
-      <p className='quotes'>{quote}</p>
-      <button type='button' onClick={updateQuote} className='generateQuotes'>
+      <p className="quotes">{quote}</p>
+      <button type="button" onClick={updateQuote} className="generateQuotes">
         Generate quote
       </button>
     </div>
