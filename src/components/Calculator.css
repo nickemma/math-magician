@@ -10,6 +10,11 @@
   box-sizing: border-box;
 }
 
+.math {
+  margin-left: 50px;
+  font-size: 1.5rem;
+}
+
 .global {
   width: 100%;
   max-width: 400px;
