@@ -26,7 +26,7 @@ The pull request is opened to get a review on the project and check for any requ
 
 ## Click here for live version
 
-- live demo: (https://techieemma-math-magician.netlify.app/)
+- live demo: [Live](https://techieemma-math-magician.netlify.app/)
 
 To get a local copy up and running follow these simple example steps.
 follow>>>>>>>>>
