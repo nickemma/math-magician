@@ -1,0 +1,228 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly react-test-renderer 1`] = `
+<div
+  className="home"
+>
+  <div
+    className="content"
+  >
+    <h1>
+      Welcome to our page!
+    </h1>
+    <p>
+      Math Magicians is a website for all fans of mathematics. It is a
+    </p>
+    <p>
+      Single Page App (SPA) that allows users to: Make simple calculations and Read a random math-related quotes.
+    </p>
+  </div>
+  <div
+    className="image"
+  >
+    <img
+      alt="math"
+      src="Mathematics-bro.svg"
+    />
+  </div>
+</div>
+`;
+
+exports[`renders correctly react-test-renderer 2`] = `
+<div
+  className="quoteContainer"
+>
+  <div
+    className="quotes"
+  >
+    <p>
+      "Math is the source code of reality."
+    </p>
+  </div>
+  <p
+    className="quotes"
+  />
+  <button
+    className="generateQuotes"
+    onClick={[Function]}
+    type="button"
+  >
+    Generate quote
+  </button>
+</div>
+`;
+
+exports[`renders correctly react-test-renderer 3`] = `
+Array [
+  <div
+    className="math"
+  >
+    <h2>
+      Lets do some math!
+    </h2>
+  </div>,
+  <div
+    className="global"
+  >
+    <div
+      className="answer-span"
+      onChange={[Function]}
+    >
+      0
+    </div>
+    <div
+      className="box-one"
+    >
+      <button
+        className="btn delete number"
+        onClick={[Function]}
+        type="button"
+      >
+        AC
+      </button>
+      <button
+        className="btn  number number"
+        onClick={[Function]}
+        type="button"
+      >
+        +/-
+      </button>
+      <button
+        className="btn clear number"
+        onClick={[Function]}
+        type="button"
+      >
+        %
+      </button>
+      <button
+        className="btn  equal-to operator"
+        onClick={[Function]}
+        type="button"
+      >
+        ÷
+      </button>
+    </div>
+    <div
+      className="box-two"
+    >
+      <button
+        className="btn number"
+        onClick={[Function]}
+        type="button"
+      >
+        7
+      </button>
+      <button
+        className="btn number"
+        onClick={[Function]}
+        type="button"
+      >
+        8
+      </button>
+      <button
+        className="btn number"
+        onClick={[Function]}
+        type="button"
+      >
+        9
+      </button>
+      <button
+        className="btn number operator"
+        onClick={[Function]}
+        type="button"
+      >
+        x
+      </button>
+    </div>
+    <div
+      className="box-three"
+    >
+      <button
+        className="btn number"
+        onClick={[Function]}
+        type="button"
+      >
+        4
+      </button>
+      <button
+        className="btn number"
+        onClick={[Function]}
+        type="button"
+      >
+        5
+      </button>
+      <button
+        className="btn number"
+        onClick={[Function]}
+        type="button"
+      >
+        6
+      </button>
+      <button
+        className="btn number  operator"
+        onClick={[Function]}
+        type="button"
+      >
+        -
+      </button>
+    </div>
+    <div
+      className="box-four"
+    >
+      <button
+        className="btn number"
+        onClick={[Function]}
+        type="button"
+      >
+        1
+      </button>
+      <button
+        className="btn number"
+        onClick={[Function]}
+        type="button"
+      >
+        2
+      </button>
+      <button
+        className="btn number"
+        onClick={[Function]}
+        type="button"
+      >
+        3
+      </button>
+      <button
+        className="btn number operator"
+        onClick={[Function]}
+        type="button"
+      >
+        +
+      </button>
+    </div>
+    <div
+      className="box-five"
+    >
+      <button
+        className="btn number zero"
+        onClick={[Function]}
+        type="button"
+      >
+        0
+      </button>
+      <button
+        className="btn number dot"
+        onClick={[Function]}
+        type="button"
+      >
+        .
+      </button>
+      <button
+        className="btn number operator"
+        onClick={[Function]}
+        type="button"
+      >
+        =
+      </button>
+    </div>
+  </div>,
+]
+`;
