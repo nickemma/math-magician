@@ -1,0 +1,45 @@
+.home {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 8rem;
+}
+
+.home .content {
+  flex: 1 1 40rem;
+}
+
+.home .content h1 {
+  font-size: 2rem;
+  color: coral;
+  margin-bottom: 2rem;
+}
+
+.home .content p {
+  font-size: 1.3rem;
+  color: #333;
+  padding: 1rem 0;
+}
+
+.home .image {
+  flex: 1 1 40rem;
+}
+
+.home .image img {
+  width: 100%;
+}
+
+@media only screen and (max-width: 700px) {
+  .home {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .content {
+    margin: 20px 10px;
+  }
+
+  .image {
+    margin-top: -380px;
+  }
+}
