@@ -1,5 +1,5 @@
 import React from 'react';
-import renderer  from 'react-test-renderer';
+import renderer from 'react-test-renderer';
 import { BrowserRouter as Router } from 'react-router-dom';
 
 import Home from './Home';
@@ -29,6 +29,3 @@ it('renders correctly', () => {
     ).toJSON(); expect(tree).toMatchSnapshot();
   </Router>;
 });
-
-
-
